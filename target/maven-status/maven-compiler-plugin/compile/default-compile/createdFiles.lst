@@ -1,0 +1,13 @@
+com\example\PrimaryController.class
+com\example\tp3\SupportTicket.class
+com\example\tp3\TicketPersistenceServiceTests.class
+com\example\tp3\TicketDao.class
+com\example\tp3\TicketExporter.class
+com\example\tp3\DatabaseManager.class
+com\example\SecondaryController.class
+module-info.class
+com\example\App.class
+com\example\tp3\SQLiteTicketDao.class
+com\example\tp3\TicketPersistenceApp.class
+com\example\tp3\TicketDaoTests.class
+com\example\tp3\TicketPersistenceService.class
