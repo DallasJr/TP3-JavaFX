@@ -157,7 +157,7 @@ public class TicketPersistenceApp extends Application {
 
         exportButton.setOnAction(e -> {
             try {
-                TicketExporter.exportToCsv(service.getTickets(), "tickets.csv");
+                TicketExporter.exportToCsv(service.getTickets(), "exports/tickets.csv");
                 statusLabel.setText("Exported to tickets.csv");
             } catch (IOException ex) {
                 statusLabel.setText("Export failed: " + ex.getMessage());
